@@ -93,11 +93,5 @@ All labs were created and tested manually. No automation tools were used — jus
 
 ---
 
-## 👨‍💻 About Me
-
-Aspiring penetration tester with a solid foundation in networking.  
-These labs highlight my hands-on practice with core network protocols and configurations as part of my journey into ethical hacking.
-
----
 
 Thanks for checking this out! 🚀
