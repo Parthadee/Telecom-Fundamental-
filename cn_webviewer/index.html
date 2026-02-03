@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Networking - Complete Guide</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-left">
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <h1 class="site-title" id="siteTitle" style="cursor: pointer;">
+                <i class="fas fa-network-wired"></i> Computer Networking
+            </h1>
+        </div>
+        
+        <div class="header-right">
+            <button class="home-button" id="homeButton" aria-label="Back to Home"><i class="fas fa-home"></i></button>
+            <button class="theme-toggle" id="themeToggle"><i class="fas fa-moon"></i></button>
+            
+            <a href="https://github.com/xidruk/computer-networking" class="github-stars" target="_blank">
+                <i class="fab fa-github"></i> <span id="starCount">11</span> <i class="fas fa-star"></i>
+            </a>
+
+            <div class="social-links">
+                <a href="https://twitter.com/xidruk" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://linkedin.com/in/xidruk" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <aside class="left-sidebar" id="leftSidebar">
+            <nav class="main-navigation" id="mainNav"></nav>
+        </aside>
+        
+        <div class="content-wrapper">
+            <div id="loading" class="loading"><div class="loader"></div></div>
+            <div id="error" class="error-message" style="display: none;">
+                <i class="fas fa-exclamation-triangle"></i>
+                <p>Failed to load content.</p>
+            </div>
+            <article id="content" class="markdown-body"></article>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <p><i class="fas fa-code"></i> Made with passion for networking</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
