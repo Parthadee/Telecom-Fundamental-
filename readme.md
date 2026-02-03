@@ -1,23 +1,5 @@
 <h1>
-  <span style="color:#00BFFF;">~</span>
-  <span style="color:#1E90FF;">C</span>
-  <span style="color:#00CED1;">@</span>
-  <span style="color:#32CD32;">m</span>
-  <span style="color:#ADFF2F;">p</span>
-  <span style="color:#FFD700;">u</span>
-  <span style="color:#FFA500;">t</span>
-  <span style="color:#FF8C00;">e</span>
-  <span style="color:#FF4500;">r</span>
-  <span style="color:#DC143C;">&nbsp;N</span>
-  <span style="color:#C71585;">e</span>
-  <span style="color:#8A2BE2;">t</span>
-  <span style="color:#6A5ACD;">w</span>
-  <span style="color:#483D8B;">o</span>
-  <span style="color:#4169E1;">r</span>
-  <span style="color:#1E90FF;">k</span>
-  <span style="color:#00BFFF;">i</span>
-  <span style="color:#00CED1;">n</span>
-  <span style="color:#20B2AA;">g</span>
+ Telecom Network Fundamentals Study 
 </h1>
 
 
@@ -25,7 +7,7 @@ A repository for mastering the **core principles of computer networking**.
 From **data transmission** and **protocols** to **routing**, **security**, and **subnetting** 
 this project provides a clear, structured, and practical guide for anyone exploring the world of networks.
 
-## ~ Table of Content : :
+## Table of Content : :
 
 1. [Introduction](#1-introduction-)
     - [Definition of Computer Network](#definition-of-computer-network-)
